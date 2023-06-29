@@ -1,0 +1,40 @@
+.jumbotron{
+    background-color: aquamarine;
+}
+
+.original_title{
+
+   background-color: cornflowerblue;
+   font-size: 20px;
+   font-weight: bold;
+   padding:2px ;
+   justify-content: center;
+}
+
+.summary_title{
+
+    background-color: rgb(100, 182, 237);
+    font-size: 20px;
+    font-weight: bold;
+    padding:2px ;
+    justify-content: center;
+ }
+
+ .srt{
+
+    display: flex;
+    flex-direction: row;
+ }
+.SummaryText{
+
+    background-color: rgb(100, 182, 237);
+    padding:20x;
+}
+
+.originalText{
+
+    background-color:cornflowerblue;
+    padding:20x;
+    margin-left: 10px;
+
+}
