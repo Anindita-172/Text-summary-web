@@ -11,22 +11,22 @@
     <div class="container">
         <div class="jumbotron ">
             <div class="container">
-              <h1 class="display-4">Text Summarization</h1>
+              <h1 class="display-4 heading">Text Summarization</h1>
               <p class="lead">Retrieving the summary for the text</p>
             </div>
           </div>
           <div class="container" style="display: flex; justify-content: space-around">
-            <p class="original_title col-sm-4">Original Text</p>
+          
             <p class="summary_title col-sm-4">Summary</p>
           </div>
     </div>
     <div class="container srt">
-        <p class="SummaryText col-sm-6">{{summary}}</p>
-        <p class="originalText col-sm-6">{{original_txt}}</p>
+        <p class="SummaryText col-sm-6" style="display: flex; justify-content: space-around" >{{summary}}</p>
+        
     </div>
     <div class="container srt">
-        <button class="btn btn-danger" type="submit" >Words: {{len_orig}} </button>
-        <button class="btn btn-success" type="submit" >Words: {{len_summary}} </button>
+        <button class="btn btn-danger" type="submit" >Before summary: {{len_orig}} </button> <br> 
+        <button class="btn btn-success" type="submit" >After summary:: {{len_summary}} </button>
          
     </div>
    
