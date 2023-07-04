@@ -17,7 +17,7 @@
     font-size: 20px;
     font-weight: bold;
     padding:2px ;
-    justify-content: center;
+    justify-content:flex-start;
  }
 
  .srt{
@@ -29,6 +29,8 @@
 
     background-color: rgb(100, 182, 237);
     padding:20x;
+    padding:2px ;
+    justify-content:center;
 }
 
 .originalText{
@@ -37,4 +39,19 @@
     padding:20x;
     margin-left: 10px;
 
+}
+.heading{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.lead
+{
+    display: flex;
+    justify-content: center;  
+}
+.submitbtn{
+
+    margin-top: 10px;
 }
